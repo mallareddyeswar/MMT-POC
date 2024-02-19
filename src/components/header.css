@@ -1,0 +1,10 @@
+/* Assuming this CSS is for your header component */
+.navbar {
+    position: fixed; /* or 'absolute', depending on your layout */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure this is higher than the image/banner z-index */
+    background-color: transparent !important; /* Override any default background */
+  }
+  
