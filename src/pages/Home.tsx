@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Card, CardBody, Input, Button } from "@nextui-org/react";
 import axios from 'axios';
 import './css/home.css'; 
@@ -20,7 +20,7 @@ const [showSelectFlight, setShowSelectFlight] = useState(false);
   
     const amadeusFlightSearchEndpoint = "https://test.api.amadeus.com/v2/shopping/flight-offers";
   
-    const yourAmadeusApiAccessToken = "DF3A6FENErJqnYEUoJpPGOLOhSv9";
+    const yourAmadeusApiAccessToken = "ADtKB7BO05XMeNObfCj7Q4oKIAaK";
   
     try {
       const response = await axios.get(amadeusFlightSearchEndpoint, {

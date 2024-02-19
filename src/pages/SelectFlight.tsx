@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Card, CardBody, CardFooter, CardHeader, Divider, Image } from "@nextui-org/react";
 
 function SelectFlight(flightsData: any) {
@@ -19,7 +18,7 @@ function SelectFlight(flightsData: any) {
             <div className="flex flex-wrap justify-center gap-4 pt-8">
                 {flightsData.flightsData.data.map((flight: any, index: number) => (
                     <Card className="w-full max-w-xs" key={index} isHoverable>
-                        {flight.itineraries.map((itinerary: any, itineraryIndex: number) => (
+                        {flight.itineraries.map(( itineraryIndex: number) => (
                             <div key={itineraryIndex}>
                                 <CardHeader>
                                     <Image
